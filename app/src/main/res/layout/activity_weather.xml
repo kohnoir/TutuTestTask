@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme.NoActionBar"
+    tools:context=".WeatherActivity">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/backgroundWeatherActivity"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/toolbar_note_constructor"
+                layout="@layout/toolbar_weather_activity"
+                app:layout_anchor="@+id/scroll_view_one"
+                app:layout_anchorGravity="top|center" />
+            <TextView
+                android:id="@+id/text_weather_activity_city_country"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/backgroundWeatherActivity"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:textColor="@color/dark" />
+            <TextView
+                android:id="@+id/text_weather_activity_forecast_date"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="15sp"
+                android:background="@color/backgroundWeatherActivity"
+                android:gravity="center"
+                android:textColor="@color/dark" />
+            <TextView
+                android:id="@+id/text_weather_activity_icon"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@color/backgroundWeatherActivity"
+                android:gravity="center"
+                android:textSize="150sp"
+                android:fontFamily="@font/weather"
+                android:textColor="@color/dark" />
+            <TextView
+                android:id="@+id/text_weather_activity_time_temp"
+
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:textSize="35sp"
+                android:background="@color/backgroundWeatherActivity"
+                android:fontFamily="@font/weather"
+                android:gravity="center"
+                android:textColor="@color/dark" />
+
+            <TextView
+                android:id="@+id/text_weather_activity_wind_speed"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/backgroundWeatherActivity"
+                android:fontFamily="@font/weather"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:textColor="@color/dark" />
+            <Space
+                android:id="@+id/space_under_text_list_item"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+            </Space>
+
+        </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

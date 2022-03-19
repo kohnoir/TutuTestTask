@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/serg0/AndroidStudioProjects/TutuTestTask/app/src/main/res/layout/activity_main.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/serg0/AndroidStudioProjects/TutuTestTask/app/src/main/res/layout/activity_weather.xml" value="0.21041666666666667" />
+        <entry key="..\:/Users/serg0/AndroidStudioProjects/TutuTestTask/app/src/main/res/layout/list_item.xml" value="0.2046875" />
+        <entry key="..\:/Users/serg0/AndroidStudioProjects/TutuTestTask/app/src/main/res/layout/toolbar_weather_activity.xml" value="0.21041666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

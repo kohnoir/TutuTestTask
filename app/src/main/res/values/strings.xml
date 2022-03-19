@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">TutuTestTask</string>
+    <string name="main_notes">Weather</string>
+
+
+    <string name="search"> &#160; Поиск заметок \uf002</string>
+    <string name="search_icon">\uf002</string>
+    <string name="open_weather_maps_app_id">11111</string>
+    <string name="weather_sunny"></string>
+    <string name="weather_clear_night"></string>
+    <string name="weather_foggy"></string>
+    <string name="weather_cloudy"></string>
+    <string name="weather_rainy"></string>
+    <string name="weather_snowy"></string>
+    <string name="weather_thunder"></string>
+    <string name="weather_drizzle"></string>
+
+    <string name="api_weather_key">"25cb0bbb6a279e188de8dfc81799749b"</string>
+    <string name="metric">metric</string>
+    <string name="wind_speed">"  m/c</string>
+
+
+
+    <string name="not_found_error_message">Not found</string>
+    <string name="network_error_message">Network error</string>
+    <string name="remote_error_message">Remote server error</string>
+    <string name="unknown_error_message">Unknown error</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_weather">WeatherActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+</resources>

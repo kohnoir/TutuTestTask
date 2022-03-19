@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark">#000000</color>
+    <color name="colorPrimary">#bbdefb</color>
+    <color name="colorPrimaryDark">#bbdefb</color>
+    <color name="colorAccent">#bbdefb</color>
+    <color name="Snow">#DCDCDC</color>
+    <color name="easyBlue">#bbdefb</color>
+    <color name="hardBlue">#1976d2</color>
+    <color name="darkerBackground">#DCDCDC</color>
+    <color name="blueMainBackground">#ebf1f7</color>
+    <color name="backgroundWeatherActivity">#fbfbfb</color>
+    <color name="toolbarTextColor">#f0f0f0</color>
+    <color name="popupMenuTextColor">#000000</color>
+</resources>
