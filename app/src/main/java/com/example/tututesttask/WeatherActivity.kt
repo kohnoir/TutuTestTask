@@ -28,11 +28,12 @@ class WeatherActivity : AppCompatActivity() {
         })
     }
     private fun viewSet(){
-        val windSpeed = intent.getStringExtra("windSpeed")
-        val forecastDate = intent.getStringExtra("forecastDate")
-        val tempTime = intent.getStringExtra("tempTime")
-        val weatherConditions = intent.getStringExtra("weatherConditions")
-        val countryWeather = intent.getStringExtra("countryWeather")
+
+        val windSpeed = intent.getStringExtra(resources.getString(R.string.data_wind_speed))
+        val forecastDate = intent.getStringExtra(resources.getString(R.string.data_forecast_date))
+        val tempTime = intent.getStringExtra(resources.getString(R.string.data_temp_time))
+        val weatherConditions = intent.getStringExtra(resources.getString(R.string.data_weather_conditions))
+        val countryWeather = intent.getStringExtra(resources.getString(R.string.data_country_weather))
         textViewCity?.text = countryWeather
         textViewWindSpeed?.text = windSpeed
         textViewForecastDate?.text = forecastDate

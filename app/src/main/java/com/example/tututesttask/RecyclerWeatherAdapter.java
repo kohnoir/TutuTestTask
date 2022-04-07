@@ -7,13 +7,15 @@ import android.view.ViewGroup;
 import android.widget.Filter;
 import android.widget.Filterable;
 import android.widget.TextView;
+
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
 import java.util.ArrayList;
 import java.util.List;
 
 
-class RecyclerWeatherAdapter extends RecyclerView.Adapter<RecyclerWeatherAdapter.ViewHolder>implements Filterable {
+public class RecyclerWeatherAdapter extends RecyclerView.Adapter<RecyclerWeatherAdapter.ViewHolder>implements Filterable {
     private final LayoutInflater inflater;
     protected List<WeatherItem> weatherItemAdapter;
     private OnItemClickListener<WeatherItem> onItemClickListener;
@@ -48,7 +50,7 @@ class RecyclerWeatherAdapter extends RecyclerView.Adapter<RecyclerWeatherAdapter
         void onEntryClick(View view, int position);
     }
 
-    void setOnEntryClickListener(OnEntryClickListener onEntryClickListener) {
+    public void setOnEntryClickListener(OnEntryClickListener onEntryClickListener) {
         mOnEntryClickListener = onEntryClickListener;
     }
 
